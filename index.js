@@ -11,7 +11,7 @@ const inputFroyo = prompt(
                 flavorCounts[trimmedFlavor]++; 
               } else {
                 flavorCounts[trimmedFlavor] = 1;
-              } /*Checks if trimmedFlavor exist as a key in the flavorCounts object, if the flavor is found and seen before, the count is incremented by 1. If not, it is added to the flavorcounts object with an initial count of 1*/
+              } /*Checks if trimmedFlavor exist as a key in the flavorCounts object, if the flavor is found and seen before, the count is incremented by 1. If not, it is added to the flavorCounts object with an initial count of 1*/
             }
             console.table(flavorCounts); /*Logs flavorCounts object in table format.*/
         } 
